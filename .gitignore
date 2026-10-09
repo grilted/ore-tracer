@@ -1,0 +1,10 @@
+.gradle/
+.gradle-home/
+build/
+run/
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+.fabric-example/

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "oretracer",
+  "version": "${version}",
+  "name": "Ore Tracer",
+  "description": "Client-side ore glow, outlines, tracers, and vein labels.",
+  "authors": ["Kairo"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.kairo.oretracer.OreTracerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
